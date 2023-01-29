@@ -24,7 +24,7 @@
                 <p id="message">${message}</p>
             </div>
             <div id="child2">
-                <a href=""><span>Go to</span> Arithmetic Calculator</a>
+                <a href="arithmetic"><span>Go to</span> Arithmetic Calculator</a>
             </div>
         </div>
     </body>
