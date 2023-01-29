@@ -9,9 +9,23 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Age Calculator</title>
     </head>
     <body>
-        <h1>Age Calculator</h1>
+        <div id="main">
+            <h1>Age Calculator</h1>
+            <hr>
+            <div id="child1">
+                <form method="post" action="age">
+                    <lable for="age">Enter your age: </lable>
+                    <input type="text" name="age"><br><br>
+                    <input type="submit" value="Age next Birthday">
+                </form>
+                <p id="ageReturn">${ageOutput}</p>
+                <p id="message">${message}</p>
+            </div>
+            <div id="child2">
+                <a href=""><span>Go to</span> Arithmetic Calculator</a>
+            </div>
+        </div>
     </body>
 </html>
